@@ -19,5 +19,4 @@ setup(
     long_description=long_description,
     packages=find_packages(),
     platforms='any'
-    }
 )
