@@ -9,7 +9,7 @@ with open(path.join(here, 'README.md'), encoding='utf-8') as f:
 
 setup(
     name='CINvalidator',
-    version='0.0.3',
+    version='0.0.4',
     keywords=('Validator', 'Citizen Identification Number'),
     url='https://github.com/imlonghao/CIN-validator',
     license='Apache License 2.0',
