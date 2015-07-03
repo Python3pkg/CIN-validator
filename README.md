@@ -13,7 +13,7 @@ pip install CINvalidator
 ```python
 import CINvalidator
 
-if CINvalidator(441234197001011111):
+if CINvalidator.CINvalidator(441234197001011111):
     pass # Actions when the CIN is true.
 else:
     pass # Actions when the CIN is false.
