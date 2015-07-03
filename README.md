@@ -11,7 +11,7 @@ pip install CINvalidator
 ## Usage
 
 ```python
-from CINvalidator.CINvalidator import CINvalidator
+import CINvalidator
 
 if CINvalidator(441234197001011111):
     pass # Actions when the CIN is true.
