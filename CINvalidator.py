@@ -27,6 +27,8 @@ def CINvalidator(CIN):
 		return False
 	if today - birth > datetime.timedelta(44724):
 		return False
+	if today - birth < 0:
+		return False
 	# 判断校验码
 	sum = 0
 	for i in range(17):
