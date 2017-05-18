@@ -1,1 +1,1 @@
-from CINvalidator import *
+from .CINvalidator import *
